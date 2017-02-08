@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f8f7f3;
+}
+
+p {
+  text-align: center;
+  font-size: 125%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.imgwrapper {
+  margin: 35px;
+}
+
+.header {
+  font-size: 450%;
+  font-weight: 900;
+}
+
+.logos {
+  width: 70px;
+  height: 70px;
+}
+
+.logos_abridged {
+  width: 55px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-extrastyles {
+  margin-top: 25px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 115%;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
