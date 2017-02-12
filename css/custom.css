@@ -21,12 +21,13 @@ a {
 }
 
 .imgwrapper {
-  margin: 35px;
+  margin: 20px;
 }
 
 .header {
-  font-size: 450%;
+  font-size: 300%;
   font-weight: 900;
+  margin-bottom: 50px;
 }
 
 .logos {
@@ -63,6 +64,35 @@ a {
 
 .grow:hover {
   transform: scale(1.1);
+}
+
+.projectImage {
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+.proj1 {
+  height: 229px;
+}
+
+.proj2 {
+  height: 257px;
+}
+
+.proj3 {
+  height: 218px;
+}
+
+.navbar-default {
+  background-color: #bdc3c7;
+}
+
+.navbar-default .navbar-brand {
+  color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000000;
 }
 
 @keyframes blink{

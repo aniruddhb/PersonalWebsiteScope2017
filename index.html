@@ -27,13 +27,54 @@
     <!-- grid container, 4 rows filled with 12 columns each -->
     <div class="wrapper">
       <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">Aniruddh Bharadwaj</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- header row -->
         <div class="row">
-            <div class="col-md-12">
-              <p class="header">Hi, I'm Ani! I'm a <span class="header2 typingjs"></span></p>
+            <div class="col-md-12 header">
+              <p>Hi, I'm Ani! I'm a <span class="typingjs"></span></p>
             </div>
         </div>
+
+        <!-- projects section -->
+        <div class="container">
+          <div class="projects">
+
+            <!-- row of projects -->
+            <div class="row">
+
+              <!-- proj 1 -->
+              <div class="col-md-4">
+                <img src="media/projects/vimeo_app.png" class="projectImage proj1" />
+                <p></p>
+              </div>
+
+              <!-- proj 2 -->
+              <div class="col-md-4">
+                <img src="media/projects/gbm_website.png" class="projectImage proj2" />
+              </div>
+
+              <!-- proj 3 -->
+              <div class="col-md-4">
+                <img src="media/projects/reco_app.png" class="projectImage proj3" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer section -->
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-4">
               <span class="imgwrapper">
                 <a href="https://www.linkedin.com/in/aniruddhbharadwaj">
                   <img src="media/github_logo.png" class="center-block logos grow">
@@ -41,9 +82,7 @@
               </span>
               <p>View my projects on GitHub!</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-4">
               <span class="imgwrapper">
                 <a href="https://github.com/aniruddhb">
                   <img src="media/linkedin_logo.png" class="center-block logos grow">
@@ -51,9 +90,7 @@
               </span>
               <p>Friend me on LinkedIn!</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-4">
               <span class="imgwrapper">
                 <a href="media/resume.pdf">
                   <img src="media/resume_logo.png" class="center-block logos logos_abridged grow">
@@ -65,7 +102,7 @@
         <div class="row">
             <div class="col-md-12">
               <a href="mailto:aniruddh@usc.edu?Subject=Hello!">
-                <button type="button" class="btn btn-default center-block btn-extrastyles">Contact Me</button>
+                <button type="button" class="btn btn-default center-block btn-extrastyles grow">Contact Me</button>
               </a>
             </div>
         </div>
@@ -88,3 +125,6 @@
     </script>
   </body>
 </html>
+
+<!-- <li class="navbar_choice"><a href="media/resume.pdf"></a></li>
+<li class="navbar_choice"><a href="mailto:aniruddh@usc.edu?Subject=Hello!"></a></li> -->
