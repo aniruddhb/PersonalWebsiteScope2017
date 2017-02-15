@@ -56,7 +56,6 @@
               <!-- proj 1 -->
               <div class="col-md-4">
                 <img src="media/projects/vimeo_app.png" class="projectImage proj1" />
-                <p></p>
               </div>
 
               <!-- proj 2 -->
@@ -113,7 +112,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/typed.js"></script>
     <script>
-      $(function(){
+      $(function() {
           $(".typingjs").typed({
             strings: ["computer scientist.", "software developer.", "entrepreneur."],
             typeSpeed: 65,
@@ -121,6 +120,30 @@
             backDelay: 1000,
             backSpeed: 40,
           });
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+        let h_one = "<li><a href=\"media/resume.pdf\">Resume</a></li>";
+        let h_two = "<li><a href=\"#\" class=\"darkmode\">Switch to Dark Mode</a></li>";
+        $(".navbar-right").append([h_one, h_two]);
+      });
+    </script>
+    <script>
+      $(function() {
+        var x = 0;
+
+        $(".darkmode").click(function() {
+          if (x === 1) {
+            $("body").css("background-color", "#f8f7f3");
+            $(".darkmode").text("Switch to Dark Mode");
+            x = 0;
+          } else {
+            $("body").css("background-color", "#545E75");
+            $(".darkmode").text("Switch to Light Mode");
+            x = 1;
+          }
+        });
       });
     </script>
   </body>

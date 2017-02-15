@@ -66,21 +66,25 @@ a {
   transform: scale(1.1);
 }
 
+.projects {
+  text-align: center;
+}
+
 .projectImage {
-  width: 300px;
+  width: 200px;
   margin-bottom: 25px;
 }
 
 .proj1 {
-  height: 229px;
+  height: 152px;
 }
 
 .proj2 {
-  height: 257px;
+  height: 171px;
 }
 
 .proj3 {
-  height: 218px;
+  height: 145px;
 }
 
 .navbar-default {
